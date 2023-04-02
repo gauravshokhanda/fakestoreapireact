@@ -88,9 +88,9 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
           <div className="check-out">
             <button
               className="check-out-btn"
-              // onClick={() => {
-              //   items.length >= 1 && print();
-              // }}
+              onClick={() => {
+                items.length >= 1 && print();
+              }}
             >
               Check Out
             </button>
